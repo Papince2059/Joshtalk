@@ -10,4 +10,4 @@ Q4,model_metrics,outputs/q4_model_metrics.csv,yes,WER/CER ranking table
 Q4,segment_analysis,outputs/q4_segment_analysis.csv,yes,Per-segment model comparison
 Q4,summary,outputs/q4_summary.json,no,Supporting stats
 Q4,short_report,outputs/q4_report.md,yes,Method + final result
-Q2-Q4,combined_report,outputs/submission_q2_q4/Assignment_Q2_Q4_Report.md,yes,Single report for assignment upload
+Q2-Q4,combined_report,outputs/submission_q2_to_q4/Assignment_Q2_to_Q4_Report.md,yes,Single report for assignment upload
