@@ -1,0 +1,13 @@
+question,deliverable_type,file_or_folder,required_for_submission,notes
+Q2,methodology,outputs/q2_methodology.md,yes,Short methodology summary
+Q2,output_sheet,outputs/q2_disfluency_segments.csv,yes,One row per disfluency occurrence
+Q2,segmented_audio,data/q2_disfluency_clips,yes,Audio clips linked from output sheet
+Q2,run_summary,outputs/q2_disfluency_summary.json,no,Supporting stats
+Q3,output_sheet,outputs/q3_word_spelling_labels.csv,yes,Columns: word + spelling_label
+Q3,methodology,outputs/q3_methodology.md,yes,Short methodology summary
+Q3,run_summary,outputs/q3_spelling_summary.json,no,Supporting stats
+Q4,model_metrics,outputs/q4_model_metrics.csv,yes,WER/CER ranking table
+Q4,segment_analysis,outputs/q4_segment_analysis.csv,yes,Per-segment model comparison
+Q4,summary,outputs/q4_summary.json,no,Supporting stats
+Q4,short_report,outputs/q4_report.md,yes,Method + final result
+Q2-Q4,combined_report,outputs/submission_q2_q4/Assignment_Q2_Q4_Report.md,yes,Single report for assignment upload

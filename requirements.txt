@@ -1,0 +1,23 @@
+datasets>=2.19.0
+transformers>=4.42.0
+accelerate>=0.33.0
+evaluate>=0.4.2
+jiwer>=3.0.4
+soundfile>=0.12.1
+librosa>=0.10.2
+pandas>=2.2.2
+requests>=2.32.3
+tqdm>=4.66.4
+torch>=2.2.0
+
+
+
+# Saving the dataset (1/1 shards): 100%|██████████████████████████| 11/11 [00:00<00:00, 1292.33 examples/s]
+# {
+#   "input_rows_hi": 104,
+#   "prepared_rows": 104,
+#   "train_rows": 93,
+#   "validation_rows": 11,
+#   "failures": 0,
+#   "failure_examples": []
+# }
