@@ -97,5 +97,5 @@ Not pushed to GitHub:
 Data is intentionally excluded via `.gitignore` to keep the repository small and clean.
 
 Included submission docs:
-- `outputs/submission_q2_to_q4/Assignment_Q2_to_Q4_Report.md`
+- `outputs/submission_q2_to_q4/Assignment_Q1_to_Q4_Report.md`
 - `outputs/submission_q2_to_q4/submission_manifest.csv`

@@ -1,10 +1,34 @@
-# Assignment Submission Report (Questions 2 to 4)
+# Assignment Submission Report (Questions 1 to 4)
 
-## Scope
-This report covers only:
-- Question 2: Disfluency detection and segmented dataset creation
-- Question 3: Correct vs incorrect spelling classification of unique words
-- Question 4: Multi-model transcript evaluation
+## Question 1
+### Objective
+Preprocess ~10 hours Hindi ASR data, fine-tune Whisper-small, and compare baseline vs fine-tuned performance.
+
+### Methodology (Short)
+- Filtered metadata for Hindi records and resolved broken URLs to `upload_goai` format.
+- Downloaded audio + transcription JSON and created segment-level training clips.
+- Built train/validation Hugging Face dataset for Whisper.
+- Fine-tuning run started but stopped due to GPU limits (partial run only).
+
+### Preprocessing Summary
+- Input Hindi recordings: `104`
+- Prepared segment samples: `5794`
+- Train rows: `5214`
+- Validation rows: `580`
+- Failures: `0`
+
+### Training/Eval Status (Partial)
+- Training progress at interruption: `[401/800], Epoch 1.23/3`
+- Baseline WER (reported): `0.830` (83.00%)
+- Validation WER at step 200: `0.418857` (41.89%)
+- Validation CER at step 200: `0.209089` (20.91%)
+- Relative WER improvement vs baseline: `49.54%`
+- Note: final fine-tuned FLEURS evaluation pending full training completion.
+
+### Q1 Deliverables
+- Consolidated report section: `outputs/final_report/final_report_q1_q4.md`
+- Q1 structured report: `outputs/q1_report.md`
+- Q1 WER table: `outputs/q1_wer_table.csv`
 
 ---
 
@@ -85,7 +109,7 @@ Evaluate model transcripts against human reference transcripts and select best-p
 ---
 
 ## Reproducibility (Scripts Used)
+- Q1: `scripts/prepare_joshtalk_hindi.py`, `scripts/train_whisper_hindi.py`, `scripts/evaluate_fleurs_hi.py`
 - Q2: `scripts/prepare_disfluency_dataset.py`
 - Q3: `scripts/classify_q3_spelling.py`
 - Q4: `scripts/evaluate_q4_models.py`
-

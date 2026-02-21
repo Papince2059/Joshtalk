@@ -1,0 +1,3 @@
+model,eval_dataset,split,wer,cer,status,notes
+openai/whisper-small,google/fleurs hi_in,test,0.83,,reported,User-reported baseline WER from run context
+whisper-small fine-tune (partial),JoshTalk validation,validation(step=200),0.41885734,0.20908851,partial_training,Training interrupted due to GPU limits

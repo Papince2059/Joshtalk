@@ -1,4 +1,6 @@
 question,deliverable_type,file_or_folder,required_for_submission,notes
+Q1,methodology_report,outputs/submission_q2_to_q4/Q1_report.md,yes,Question 1 preprocessing + partial training report
+Q1,wer_table,outputs/submission_q2_to_q4/Q1_wer_table.csv,yes,Structured WER table
 Q2,methodology,outputs/q2_methodology.md,yes,Short methodology summary
 Q2,output_sheet,outputs/q2_disfluency_segments.csv,yes,One row per disfluency occurrence
 Q2,segmented_audio,data/q2_disfluency_clips,yes,Audio clips linked from output sheet
@@ -10,4 +12,4 @@ Q4,model_metrics,outputs/q4_model_metrics.csv,yes,WER/CER ranking table
 Q4,segment_analysis,outputs/q4_segment_analysis.csv,yes,Per-segment model comparison
 Q4,summary,outputs/q4_summary.json,no,Supporting stats
 Q4,short_report,outputs/q4_report.md,yes,Method + final result
-Q2-Q4,combined_report,outputs/submission_q2_to_q4/Assignment_Q2_to_Q4_Report.md,yes,Single report for assignment upload
+Q1-Q4,combined_report,outputs/submission_q2_to_q4/Assignment_Q1_to_Q4_Report.md,yes,Single report for assignment upload
