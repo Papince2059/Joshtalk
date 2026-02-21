@@ -23,6 +23,13 @@ outputs/*
 !outputs/submission_q2_q4/
 !outputs/submission_q2_q4/Assignment_Q2_Q4_Report.md
 !outputs/submission_q2_q4/submission_manifest.csv
+!outputs/final_report/
+!outputs/final_report/final_report_q1_q4.md
+!outputs/final_report/charts/
+!outputs/final_report/charts/q1_wer_comparison.png
+!outputs/final_report/charts/q2_disfluency_distribution.png
+!outputs/final_report/charts/q3_spelling_counts.png
+!outputs/final_report/charts/q4_model_metrics.png
 
 # OS
 Thumbs.db
